@@ -1,7 +1,7 @@
 {
-    "name": "react-native-ad",
+    "name": "@pzpupu/react-native-ad",
     "title": "react-native 广告联盟SDK",
-    "version": "1.2.4",
+    "version": "1.2.6",
     "description": "给rn封装一些常用的广告平台的 sdk，头条穿山甲，腾讯广点通，百度百青藤等广告模块...",
     "main": "index.ts",
     "scripts": {
@@ -9,15 +9,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/haxibiao/react-native-ad.git",
-        "baseUrl": "https://github.com/haxibiao/react-native-ad"
+        "url": "git+https://github.com/pzpupu/react-native-ad.git",
+        "baseUrl": "https://github.com/pzpupu/react-native-ad"
     },
     "keywords": [
         "react-native"
     ],
     "author": {
-        "name": "haxibiao",
-        "email": "ivan@haxibiao.com"
+        "name": "zp",
+        "email": "pzpupu@gmail.com"
     },
     "license": "MIT",
     "licenseFilename": "LICENSE",
@@ -29,8 +29,5 @@
     "devDependencies": {
         "react": "17.0.1",
         "react-native": "0.64.0"
-    },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
     }
 }

@@ -9,14 +9,14 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                   react-native-ad
                    DESC
-  s.homepage     = "https://github.com/haxibiao/react-native-ad"
+  s.homepage     = "https://github.com/pzpupu/react-native-ad"
   # brief license entry:
   s.license      = "MIT"
   # optional - use expanded license entry instead:
   # s.license    = { :type => "MIT", :file => "LICENSE" }
-  s.authors      = { "wangbin" => "wangbin@haxibiao.com" }
+  s.authors      = { "zp" => "pzpupu@gmai.com" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/haxibiao/react-native-ad.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/pzpupu/react-native-ad.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,c,m,swift}"
   s.requires_arc = true
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
   # ...
   # s.dependency "..."
 
-  s.dependency 'Ads-CN', '3.9.0.4'
+  s.dependency 'Ads-CN', '~> 4.3.0.3'
 end
 

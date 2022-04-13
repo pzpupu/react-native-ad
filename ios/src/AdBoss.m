@@ -51,14 +51,14 @@ static RCTPromiseRejectBlock adReject;
 
 +(void)init:(NSString*) appid {
     _appid = appid;
-    
+
 #if DEBUG
     //Whether to open log. default is none.
     [BUAdSDKManager setLoglevel:BUAdSDKLogLevelDebug];
 #endif
     [BUAdSDKManager setAppID:_appid];
-    [BUAdSDKManager setIsPaidApp:NO];
-    
+//     [BUAdSDKManager setIsPaidApp:NO];
+
 }
 
 + (UIViewController *) getRootVC {

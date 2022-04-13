@@ -1,5 +1,19 @@
 PODS:
+  - Ads-CN (4.3.0.5):
+    - Ads-CN/BUAdSDK (= 4.3.0.5)
+  - Ads-CN/BUAdSDK (4.3.0.5):
+    - Ads-CN/BUFoundation
+    - Ads-CN/Domestic
+  - Ads-CN/BUFoundation (4.3.0.5):
+    - BURelyFoundation (= 0.0.1.47)
+  - Ads-CN/Domestic (4.3.0.5):
+    - Ads-CN/BUFoundation
   - boost (1.76.0)
+  - BURelyFoundation (0.0.1.47):
+    - BURelyFoundation/HM (= 0.0.1.47)
+    - BURelyFoundation/NETWork (= 0.0.1.47)
+  - BURelyFoundation/HM (0.0.1.47)
+  - BURelyFoundation/NETWork (0.0.1.47)
   - CocoaAsyncSocket (7.6.5)
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.67.2)
@@ -272,6 +286,9 @@ PODS:
   - React-jsinspector (0.67.2)
   - React-logger (0.67.2):
     - glog
+  - react-native-ad (1.2.5):
+    - Ads-CN (~> 4.3.0.3)
+    - React
   - React-perflogger (0.67.2)
   - React-RCTActionSheet (0.67.2):
     - React-Core/RCTActionSheetHeaders (= 0.67.2)
@@ -383,6 +400,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - react-native-ad (from `../node_modules/react-native-ad`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -399,6 +417,8 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - Ads-CN
+    - BURelyFoundation
     - CocoaAsyncSocket
     - Flipper
     - Flipper-Boost-iOSX
@@ -449,6 +469,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
+  react-native-ad:
+    :path: "../node_modules/react-native-ad"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -477,7 +499,9 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
 SPEC CHECKSUMS:
+  Ads-CN: b6b1294ba4e938168475ceacc786f7263d8b9747
   boost: a7c83b31436843459a1961bfd74b96033dc77234
+  BURelyFoundation: 5e7f811867d3ee91ed20e426c505e31c55674256
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   DoubleConversion: 831926d9b8bf8166fd87886c4abab286c2422662
   FBLazyVector: 244195e30d63d7f564c55da4410b9a24e8fbceaa
@@ -507,6 +531,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: 52beb652bbc61201bd70cbe4f0b8edb607e8da4f
   React-jsinspector: 595f76eba2176ebd8817a1fffd47b84fbdab9383
   React-logger: 23de8ea0f44fa00ee77e96060273225607fd4d78
+  react-native-ad: e7ac0e2488a2aa417f3d3a81e1de2cb99ff090a4
   React-perflogger: 3c9bb7372493e49036f07a82c44c8cf65cbe88db
   React-RCTActionSheet: 052606483045a408693aa7e864410b4a052f541a
   React-RCTAnimation: 08d4cac13222bb1348c687a0158dfd3b577cdb63
@@ -524,4 +549,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 9af65361d8a000b8f3b07171fd9cfcc3632878eb
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2
